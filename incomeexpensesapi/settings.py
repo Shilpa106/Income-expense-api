@@ -120,7 +120,7 @@ REST_FRAMEWORK = {
 
 
 SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': datetime.timedelta(minutes=1),
+    'ACCESS_TOKEN_LIFETIME': datetime.timedelta(minutes=2),
     'REFRESH_TOKEN_LIFETIME': datetime.timedelta(days=1),
 }
 
@@ -165,6 +165,6 @@ STATIC_URL = '/static/'
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 's@gmail.com'
-EMAIL_HOST_PASSWORD = 'uuu@yy'
+EMAIL_HOST_USER = 'shilpi106yadav@gmail.com'
+EMAIL_HOST_PASSWORD = 'Aalok@123'
 
